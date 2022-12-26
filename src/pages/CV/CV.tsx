@@ -54,7 +54,7 @@ const CV = () => {
           <Certificate />
         </Trail>
       </div>
-      <div className='futurama__bgc' />
+      <section className='futurama__bgc' />
     </div>
   );
 };

@@ -19,7 +19,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
-
+  z-index: 1000;
   @media screen and (max-width: 586px) {
     background-size: 250%;
   }
