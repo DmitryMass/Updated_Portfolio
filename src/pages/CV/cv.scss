@@ -10,17 +10,3 @@
   padding-right: 0.05em;
   overflow: hidden;
 }
-
-.futurama__bgc {
-  position: relative;
-  background-image: url('../../assets/images/rnm.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 100vh;
-  z-index: 1000;
-  @media screen and (max-width: 586px) {
-    background-size: 250%;
-  }
-}

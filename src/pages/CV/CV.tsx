@@ -9,6 +9,7 @@ import Education from '@/components/Descriptions/Education/Education';
 import SoftSkills from '@/components/Descriptions/SoftSkills/SoftSkills';
 import Languages from '@/components/Descriptions/Languages/Languages';
 import Certificate from '@/components/Descriptions/Certificate/Certificate';
+import rnmBgc from '@/assets/images/rnm.jpg';
 
 import './cv.scss';
 
@@ -54,7 +55,13 @@ const CV = () => {
           <Certificate />
         </Trail>
       </div>
-      <section className='futurama__bgc' />
+      <section className='flex justify-center items-center'>
+        <img
+          className='max-w-full max-h-full'
+          src={rnmBgc}
+          alt='futurama bgc'
+        />
+      </section>
     </div>
   );
 };
