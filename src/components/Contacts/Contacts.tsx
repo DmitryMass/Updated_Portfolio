@@ -9,17 +9,17 @@ const Contacts: FC = () => {
         <a
           href='https://telegram.me/Dmitry_Mass'
           target={'_blank'}
-          className='contact__link bg-telegramLogo w-[50px] h-[50px] bg-cover block'
+          className='contact__link  w-[50px] h-[50px] bg-cover block'
         ></a>
         <a
           href='https://www.linkedin.com/in/dmitry-moskalenko-69a19a226/'
           target={'_blank'}
-          className='contact__link bg-linkedinLogo w-[50px] h-[50px] bg-cover block'
+          className='contact__link  w-[50px] h-[50px]  block'
         ></a>
         <a
           href='mailto:yourhoneyparadise@gmail.com?subject=Feedback&body=Message"'
           target={'_blank'}
-          className='contact__link bg-gmailLogo w-[50px] h-[50px] bg-cover block'
+          className='contact__link  w-[50px] h-[50px] block'
         ></a>
       </div>
     </div>

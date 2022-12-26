@@ -10,7 +10,7 @@ import SoftSkills from '@/components/Descriptions/SoftSkills/SoftSkills';
 import Languages from '@/components/Descriptions/Languages/Languages';
 import Certificate from '@/components/Descriptions/Certificate/Certificate';
 
-import './cv.css';
+import './cv.scss';
 
 const Trail: FC<{ open: boolean; children: any }> = ({ open, children }) => {
   const items = Children.toArray(children);
@@ -55,7 +55,7 @@ const CV = () => {
         </Trail>
       </div>
       <div className='relative h-[100vh]'>
-        <div className='bg-futurama bg-center bg-no-repeat w-full h-full absolute bottom-0 right-0 left-0 z-[1] bg-fixed'></div>
+        <div className='futurama__bgc w-full h-full absolute bottom-0 right-0 left-0 z-[1]'></div>
       </div>
     </div>
   );

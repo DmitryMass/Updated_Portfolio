@@ -19,12 +19,7 @@ module.exports = {
       spacing: {},
       borderRadius: {},
       backgroundImage: {
-        futurama: "url('./src/assets/images/rnm.jpg')",
         bender: "url('./src/assets/images/bender.jpg')",
-        figmaLogo: "url('./src/assets/icons/figma.svg')",
-        telegramLogo: "url('./src/assets/icons/telegram-black.svg')",
-        linkedinLogo: "url('./src/assets/icons/linkedin-black.svg')",
-        gmailLogo: "url('./src/assets/icons/gmail-black.svg')",
       },
       colors: {
         blue: '#5254f4',

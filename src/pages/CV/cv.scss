@@ -11,6 +11,10 @@
   overflow: hidden;
 }
 
-.bg-futurama {
+.futurama__bgc {
   background-size: 200%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url('../../assets/images/rnm.jpg');
 }
