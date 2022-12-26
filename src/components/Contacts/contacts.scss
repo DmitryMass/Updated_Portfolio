@@ -1,0 +1,27 @@
+.contact__link {
+  animation-name: contact;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.contact__link:first-child {
+  animation-delay: 1s;
+}
+.contact__link:nth-child(2) {
+  animation-delay: 1.5s;
+}
+.contact__link:last-child {
+  animation-delay: 2s;
+}
+
+@keyframes contact {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

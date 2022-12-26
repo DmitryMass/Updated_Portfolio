@@ -1,0 +1,57 @@
+.main {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+  height: 260px;
+}
+
+.transitionsItem {
+  overflow: hidden;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 80px;
+  font-weight: 800;
+  text-transform: uppercase;
+  will-change: transform, opacity, height;
+  white-space: nowrap;
+  cursor: pointer;
+  line-height: 90px;
+  letter-spacing: 0.5px;
+  @media screen and (max-width: 768px) {
+    font-size: 55px;
+    line-height: 50px;
+  }
+  @media screen and (max-width: 576px) {
+    font-size: 45px;
+    line-height: 50px;
+  }
+}
+
+.name__wrapper {
+  padding: 0px 50px;
+  @media screen and (max-width: 992px) {
+    padding: 0px 20px;
+  }
+}
+
+.name__item {
+  text-shadow: '55px -60px 65px white';
+  @media screen and (max-width: 768px) {
+    text-shadow: none;
+  }
+}
+
+.main__bgc {
+  background-image: url('../../assets/images/bender.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+
+  @media screen and (max-width: 768px) {
+    background-position: 43%;
+  }
+}
