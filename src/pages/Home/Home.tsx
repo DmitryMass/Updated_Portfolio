@@ -27,6 +27,7 @@ const Home: FC = () => {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
+            zIndex: 10,
           }}
         >
           <About />

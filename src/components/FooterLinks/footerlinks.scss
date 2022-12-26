@@ -1,9 +1,24 @@
-.footer__links {
-  @media screen and (max-width: 576px) {
-    flex-direction: column;
-    & > a {
-      width: 100%;
-      text-align: center;
+.footer {
+  &__wrapper {
+    @media screen and (max-width: 576px) {
+      flex-direction: column;
+      & > a {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+  &__link {
+    transform: translateY(0px);
+    transition: all 0.2s linear;
+    background-color: #2d2233;
+    box-shadow: 0 0 0 2px white;
+    color: white;
+    &:hover {
+      background-color: #e2e8f0;
+      box-shadow: none;
+      color: #2d2233;
+      transform: scale(1.05);
     }
   }
 }
