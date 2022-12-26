@@ -86,7 +86,7 @@ const ParralaxLogo: FC = () => {
         />
         <img
           src={vsc}
-          style={{ display: 'block', width: '10%', marginLeft: '80%' }}
+          style={{ display: 'block', width: '10%', marginLeft: '65%' }}
         />
       </ParallaxLayer>
 
@@ -102,8 +102,8 @@ const ParralaxLogo: FC = () => {
           style={{
             display: 'block',
             width: '10%',
-            marginTop: '15%',
-            marginLeft: '20%',
+            marginTop: '5%',
+            marginLeft: '25%',
           }}
         />
       </ParallaxLayer>
