@@ -17,7 +17,7 @@ const GalleryItem: FC<IGalleryItemProps> = ({
     <div className={`project__wrapper`}>
       <div className={`project__bgc ${photo}`}></div>
       <div className='project__info'>
-        <div>
+        <div className='mb-[15px]'>
           <Subtitle modificator={portfolio.subtitle}>{title}</Subtitle>
           <Text modificator={portfolio.text}>{description}</Text>
         </div>

@@ -1,7 +1,10 @@
 .swiper {
   width: 100%;
 }
-
+.swiper-wrapper {
+  align-items: center;
+  min-height: 400px;
+}
 .swiper-slide {
   display: grid;
   text-align: center;
