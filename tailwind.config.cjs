@@ -20,6 +20,8 @@ module.exports = {
       borderRadius: {},
       backgroundImage: {
         bender: "url('./src/assets/images/bender.jpg')",
+        parallax:
+          "url('https://images.unsplash.com/photo-1671296368370-a24a6f9148cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1208&q=80')",
       },
       colors: {
         blue: '#5254f4',

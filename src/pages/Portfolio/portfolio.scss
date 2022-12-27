@@ -1,0 +1,13 @@
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  display: grid;
+  text-align: center;
+  width: 26.75rem !important;
+  border-radius: 12px;
+  @media screen and (max-width: 576px) {
+    width: 18.75rem !important;
+  }
+}

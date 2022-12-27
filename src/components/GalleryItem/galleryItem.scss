@@ -1,0 +1,66 @@
+.project {
+  &__wrapper {
+    position: relative;
+    z-index: 50;
+    transition: all 0.3s linear;
+    width: 100%;
+    height: 50vh;
+    @media screen and (max-width: 576px) {
+      height: 40vh;
+    }
+    &:hover .project__info {
+      transition: all 0.3s linear;
+      opacity: 1;
+    }
+  }
+  &__info {
+    position: absolute;
+    transition: all 0.3s linear;
+    opacity: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0px;
+    width: 100%;
+    background: black;
+    box-shadow: inset 0 0 3px 3px #5254f4;
+  }
+}
+
+.project__wrapper:hover .project__bgc {
+  transition: all 0.3s linear;
+  opacity: 0;
+}
+.project__bgc {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+  transition: all 0.3s linear;
+  filter: brightness(0.8);
+  border: 3px solid #5254f4;
+  border-radius: 4px;
+}
+
+.lang4u {
+  background-image: url('../../assets/images/lang4u.png');
+}
+.honey {
+  background-image: url('../../assets/images/honey.png');
+}
+.wallet {
+  background-image: url('../../assets/images/j-wallet.png');
+}
+.firelab {
+  background-image: url('../../assets/images/firelab.png');
+}
+.rnmJs {
+  background-image: url('../../assets/images/rnm-js.png');
+}
+.rnmTs {
+  background-image: url('../../assets/images/rnm-ts.png');
+}
