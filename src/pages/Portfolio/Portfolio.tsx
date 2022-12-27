@@ -27,6 +27,7 @@ const Portfolio: FC = () => {
         centeredSlides={true}
         slidesPerView={'auto'}
         loop={true}
+        speed={500}
         autoplay={{
           delay: 2000,
           disableOnInteraction: false,
