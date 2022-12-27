@@ -12,6 +12,7 @@ import Certificate from '@/components/Descriptions/Certificate/Certificate';
 import rnmBgc from '@/assets/images/rnm.jpg';
 
 import './cv.scss';
+import { cv } from '@/styles/cv';
 
 const Trail: FC<{ open: boolean; children: any }> = ({ open, children }) => {
   const items = Children.toArray(children);
@@ -41,8 +42,8 @@ const CV = () => {
   }, []);
 
   return (
-    <div className='relative bg-black'>
-      <div className=' max-w-[992px] px-[20px] mx-auto h-full w-full pt-[100px]'>
+    <div className={cv.wrapper}>
+      <div className={cv.container}>
         <JimmyCo />
         <Navigation />
         <Trail open={open}>
@@ -55,12 +56,8 @@ const CV = () => {
           <Certificate />
         </Trail>
       </div>
-      <section className='flex justify-center items-center'>
-        <img
-          className='max-w-full max-h-full'
-          src={rnmBgc}
-          alt='futurama bgc'
-        />
+      <section className={cv.imgBox}>
+        <img className={cv.img} src={rnmBgc} alt='futurama bgc' />
       </section>
     </div>
   );

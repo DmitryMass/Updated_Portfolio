@@ -2,8 +2,9 @@ import { FC, useState, useCallback, useRef, useEffect } from 'react';
 import { useTransition, animated } from '@react-spring/web';
 import JimmyCo from '../JimmyCo/JimmyCo';
 
-import './name.scss';
 import Contacts from '../Contacts/Contacts';
+import { name } from '@/styles/name';
+import './name.scss';
 
 const Name: FC = () => {
   const ref = useRef<ReturnType<typeof setTimeout>[]>([]);
@@ -48,10 +49,10 @@ const Name: FC = () => {
   }, []);
 
   return (
-    <div className='relative h-full w-full font-oswald main__bgc'>
+    <div className={name.container}>
       <JimmyCo />
-      <div className='name__wrapper h-full w-full flex items-center justify-end '>
-        <div className='max-w-[900px] w-full my-0 skew-y-0 md:skew-y-[20deg]'>
+      <div className={`name__wrapper ${name.wrapper}`}>
+        <div className={name.animatedBox}>
           {transitions(({ innerHeight, ...rest }, item) => (
             <animated.div
               className={`transitionsItem`}

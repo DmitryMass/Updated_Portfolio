@@ -1,9 +1,10 @@
+import { about } from '@/styles/about';
 import { FC } from 'react';
 
 const About: FC = () => {
   return (
-    <div className='max-w-[750px] w-full px-[20px] '>
-      <h2 className='text-grayBlue text-[28px] leading-9 font-oswald '>
+    <div className={about.wrapper}>
+      <h2 className={about.title}>
         I am passionate junior front-end developer with a desire to learn and
         grow in the collaborative team environment. I am seeking for new
         opportunities and challenges that will expand my skill set and
