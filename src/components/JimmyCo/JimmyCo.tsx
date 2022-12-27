@@ -6,7 +6,7 @@ const JimmyCo: FC = () => {
       <a
         href='https://github.com/DmitryMass'
         target={'_blank'}
-        className='font-rubik text-[34px] text-white block'
+        className='font-rubik sm:text-[34px] text-[26px]  text-white block'
       >
         Jimmy-CO
       </a>

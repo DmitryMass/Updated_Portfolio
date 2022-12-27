@@ -8,7 +8,7 @@ const Navigation: FC = () => {
     <div className='absolute top-[20px] bottom-0 left-[20px]'>
       <button
         onClick={() => navigate(-1)}
-        className='font-rubik text-[34px]  text-[#cda739]'
+        className='font-rubik sm:text-[34px] text-[26px] text-[#cda739]'
       >
         Back
       </button>
