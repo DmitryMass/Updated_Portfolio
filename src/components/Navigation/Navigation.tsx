@@ -7,8 +7,8 @@ const Navigation: FC = () => {
   return (
     <div className='absolute top-[20px] bottom-0 left-[20px]'>
       <button
-        onClick={() => navigate(-1)}
-        className='font-rubik sm:text-[34px] text-[26px] text-[#cda739]'
+        onClick={() => navigate('/')}
+        className='font-rubik sm:text-[34px] text-[26px] text-[#cda739] hover:scale-[1.1] transition-all duration-100 '
       >
         Back
       </button>
