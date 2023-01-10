@@ -52,6 +52,14 @@ const worksGallery: IWorksGallery[] = [
     projectLink: 'https://honey-paradise.netlify.app/',
     githubLink: 'https://github.com/DmitryMass/Honey-App-Client',
   },
+  {
+    id: 7,
+    photo: 'reactQuiz',
+    title: 'React Quiz (тестовое)',
+    description: 'React / Typescript / Tailwind',
+    projectLink: 'https://react-fast-quiz.netlify.app/',
+    githubLink: 'https://github.com/DmitryMass/Fast_ReactQuiz',
+  },
 ];
 
 export default worksGallery;
