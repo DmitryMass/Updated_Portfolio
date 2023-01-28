@@ -12,6 +12,14 @@ const worksGallery: IWorksGallery[] = [
   },
   {
     id: 2,
+    photo: 'restaurant',
+    title: 'Restaurant',
+    description: 'Restaurant. React + Typescript / NodeJs Express Nodemailer',
+    projectLink: 'https://jimmy-nique-restaurant.netlify.app/',
+    githubLink: 'https://github.com/DmitryMass/Restaurant',
+  },
+  {
+    id: 3,
     photo: 'firelab',
     title: 'FireLab',
     description:
@@ -21,7 +29,7 @@ const worksGallery: IWorksGallery[] = [
   },
 
   {
-    id: 3,
+    id: 4,
     photo: 'wallet',
     title: 'Wallet App',
     description: 'React / RTK(Query) / Webpack / PropTypes / MockApi etc',
@@ -29,7 +37,7 @@ const worksGallery: IWorksGallery[] = [
     githubLink: 'https://github.com/DmitryMass/Wallet-App_ftech',
   },
   {
-    id: 4,
+    id: 5,
     photo: 'rnmTs',
     title: 'Rick and Morty (TS)',
     description: 'React + Typescript / Redux (Toolkit/Query) / RicknMorty Api',
@@ -37,7 +45,7 @@ const worksGallery: IWorksGallery[] = [
     githubLink: 'https://github.com/DmitryMass/Rick_N_Morty_TS-version',
   },
   {
-    id: 5,
+    id: 6,
     photo: 'rnmJs',
     title: 'Rick and Morty',
     description: 'React / Redux (Thunk) / Webpack / RicknMorty Api',
@@ -45,7 +53,7 @@ const worksGallery: IWorksGallery[] = [
     githubLink: 'https://github.com/DmitryMass/Rick_And_Morty_React-Redux',
   },
   {
-    id: 6,
+    id: 7,
     photo: 'honey',
     title: 'Honey Paradise',
     description: 'React / Redux / NodeJS(Express / MongoDB) etc',
@@ -53,7 +61,7 @@ const worksGallery: IWorksGallery[] = [
     githubLink: 'https://github.com/DmitryMass/Honey-App-Client',
   },
   {
-    id: 7,
+    id: 8,
     photo: 'reactQuiz',
     title: 'React Quiz (тестовое)',
     description: 'React / Typescript / Tailwind',
