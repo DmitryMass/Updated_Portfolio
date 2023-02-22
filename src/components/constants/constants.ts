@@ -3,6 +3,14 @@ import { IWorksGallery } from '@/types/types';
 const worksGallery: IWorksGallery[] = [
   {
     id: 1,
+    photo: 'beauty',
+    title: 'Style',
+    description: 'Beauty Salon. Team project. MERN + TS',
+    projectLink: 'https://beauty-style.netlify.app/',
+    githubLink: 'https://github.com/DmitryMass/Beauty_Project',
+  },
+  {
+    id: 2,
     photo: 'lang4u',
     title: 'Lang4U',
     description:
@@ -11,7 +19,7 @@ const worksGallery: IWorksGallery[] = [
     githubLink: 'https://github.com/DmitryMass/Lang4U_Project',
   },
   {
-    id: 2,
+    id: 3,
     photo: 'restaurant',
     title: 'Restaurant',
     description: 'Restaurant. React + Typescript / NodeJs Express Nodemailer',
@@ -19,7 +27,7 @@ const worksGallery: IWorksGallery[] = [
     githubLink: 'https://github.com/DmitryMass/Restaurant',
   },
   {
-    id: 3,
+    id: 4,
     photo: 'firelab',
     title: 'FireLab',
     description:
@@ -29,7 +37,7 @@ const worksGallery: IWorksGallery[] = [
   },
 
   {
-    id: 4,
+    id: 5,
     photo: 'wallet',
     title: 'Wallet App',
     description: 'React / RTK(Query) / Webpack / PropTypes / MockApi etc',
@@ -37,7 +45,7 @@ const worksGallery: IWorksGallery[] = [
     githubLink: 'https://github.com/DmitryMass/Wallet-App_ftech',
   },
   {
-    id: 5,
+    id: 6,
     photo: 'rnmTs',
     title: 'Rick and Morty (TS)',
     description: 'React + Typescript / Redux (Toolkit/Query) / RicknMorty Api',
@@ -45,7 +53,7 @@ const worksGallery: IWorksGallery[] = [
     githubLink: 'https://github.com/DmitryMass/Rick_N_Morty_TS-version',
   },
   {
-    id: 6,
+    id: 7,
     photo: 'rnmJs',
     title: 'Rick and Morty',
     description: 'React / Redux (Thunk) / Webpack / RicknMorty Api',
@@ -53,7 +61,7 @@ const worksGallery: IWorksGallery[] = [
     githubLink: 'https://github.com/DmitryMass/Rick_And_Morty_React-Redux',
   },
   {
-    id: 7,
+    id: 8,
     photo: 'honey',
     title: 'Honey Paradise',
     description: 'React / Redux / NodeJS(Express / MongoDB) etc',
@@ -61,7 +69,7 @@ const worksGallery: IWorksGallery[] = [
     githubLink: 'https://github.com/DmitryMass/Honey-App-Client',
   },
   {
-    id: 8,
+    id: 9,
     photo: 'reactQuiz',
     title: 'React Quiz (тестовое)',
     description: 'React / Typescript / Tailwind',
