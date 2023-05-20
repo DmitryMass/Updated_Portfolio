@@ -10,22 +10,30 @@ const worksGallery: IWorksGallery[] = [
     githubLink: 'https://github.com/DmitryMass/Beauty_Project',
   },
   {
-    id: 2,
-    photo: 'poshta',
-    title: 'Nova Poshta',
-    description:
-      'Test project for a company. React + Ts / Redux (Persist) / RTK / RTK-Query etc.',
-    projectLink: 'https://novaposhta-test.netlify.app/',
-    githubLink: 'https://github.com/DmitryMass/NovaPoshta_test',
+    id: 11,
+    photo: 'jcglobal',
+    title: 'JC-Global (EMS)',
+    description: 'Employee Management System. React (TS) + Nodejs + MongoDb',
+    projectLink: 'https://jc-global.netlify.app/login',
+    githubLink: 'https://github.com/DmitryMass/JC-Global',
   },
   {
-    id: 3,
+    id: 2,
     photo: 'lang4u',
     title: 'Lang4U',
     description:
       'Language Platform. React + Typescript / NodeJs Express MongoDB etc',
     projectLink: 'https://language4u.netlify.app/',
     githubLink: 'https://github.com/DmitryMass/Lang4U_Project',
+  },
+  {
+    id: 3,
+    photo: 'poshta',
+    title: 'Nova Poshta',
+    description:
+      'Test project for a company. React + Ts / Redux (Persist) / RTK / RTK-Query etc.',
+    projectLink: 'https://novaposhta-test.netlify.app/',
+    githubLink: 'https://github.com/DmitryMass/NovaPoshta_test',
   },
   {
     id: 4,
