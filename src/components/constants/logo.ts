@@ -13,6 +13,9 @@ import cssLogo from '@/assets/icons/css.svg';
 import figmaLogo from '@/assets/icons/figma.svg';
 import firebaseLogo from '@/assets/icons/firebase.svg';
 import mongoLogo from '@/assets/icons/mongodb.svg';
+import nestjsLogo from '@/assets/icons/nestjs.svg';
+import nextjsLogo from '@/assets/icons/nextjs.svg';
+
 const data: { css: string }[] = [
   {
     css: `${htmlLogo}`,
@@ -30,6 +33,9 @@ const data: { css: string }[] = [
     css: `${reactLogo}`,
   },
   {
+    css: `${nextjsLogo}`,
+  },
+  {
     css: `${reduxLogo}`,
   },
   {
@@ -37,6 +43,9 @@ const data: { css: string }[] = [
   },
   {
     css: `${nodeJsLogo}`,
+  },
+  {
+    css: `${nestjsLogo}`,
   },
   {
     css: `${postgresLogo}`,

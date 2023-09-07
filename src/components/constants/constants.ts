@@ -2,6 +2,23 @@ import { IWorksGallery } from '@/types/types';
 
 const worksGallery: IWorksGallery[] = [
   {
+    id: 1111,
+    photo: 'isoft',
+    title: 'iSoft E-Commerce',
+    description:
+      'Apple Store. Team Project. (NextJS / NestJS / PostgreSQL). (The GitHub link leads to a copy of the project)',
+    projectLink: 'https://isoft-store.netlify.app/',
+    githubLink: 'https://github.com/iSoft-E-Commerce',
+  },
+  {
+    id: 112,
+    photo: 'yasausya',
+    title: 'Photographer Portfolio (Commercial)',
+    description: 'Github link empty. (NextJS / Swiper / Tailwindcss etc.)',
+    projectLink: 'https://yasausya.com/',
+    githubLink: '',
+  },
+  {
     id: 1,
     photo: 'beauty',
     title: 'Style',

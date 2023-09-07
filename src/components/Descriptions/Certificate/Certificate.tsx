@@ -19,6 +19,13 @@ const Certificate: FC = () => {
       >
         Front-End Advanced (JavaScript / React)
       </a>
+      <a
+        className='text-grayBlue text-[28px] mb-[5px] block underline'
+        target={'_blank'}
+        href='https://www.englishdom.com/ua/cn/3e929783/'
+      >
+        English Course
+      </a>
     </div>
   );
 };

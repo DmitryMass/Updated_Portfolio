@@ -7,7 +7,6 @@ import FooterLinks from '@/components/FooterLinks/FooterLinks';
 
 const Home: FC = () => {
   const parallax = useRef<IParallax>(null!);
-
   return (
     <div style={{ width: '100%', height: '100%', background: 'gray' }}>
       <Parallax ref={parallax} pages={3}>
@@ -32,13 +31,10 @@ const Home: FC = () => {
         >
           <About />
         </ParallaxLayer>
-        {/* LOGO */}
         <ParralaxLogo />
-
         <ParallaxLayer offset={0} speed={0.1}>
           <Name />
         </ParallaxLayer>
-
         <ParallaxLayer
           offset={2}
           speed={-0}
