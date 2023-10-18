@@ -2,6 +2,15 @@ import { IWorksGallery } from '@/types/types';
 
 const worksGallery: IWorksGallery[] = [
   {
+    id: 11111111111,
+    photo: 'portal',
+    title: 'Portal THE TAX CO',
+    description:
+      'Commercial project. (Canada) - (NextJS / NestJS / MongoDb) (Github private. Only preview)',
+    projectLink: 'https://portal.thetaxco.ca/',
+    githubLink: 'https://github.com/DmitryMass/portal-thetaxco',
+  },
+  {
     id: 1111,
     photo: 'isoft',
     title: 'iSoft E-Commerce',
